@@ -54,7 +54,7 @@ function capturePhotoWithCountdown() {
         return;
     }
 
-    let timeLeft = 5;
+    let timeLeft = 3;
     countdownEl.textContent = timeLeft;
     counterEl.textContent = `${capturedCount}/4`;
     countdownSound.play();
